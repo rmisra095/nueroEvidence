@@ -1,0 +1,62 @@
+{
+  "reviewed_on": "2026-10-06",
+  "reviewer": "Assistant; independent researcher review pending",
+  "checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "evidence_ids": [
+        "LRRK2_PD_001"
+      ],
+      "reason": "Directly supported by excerpt plus recorded abstract context."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "evidence_ids": [
+        "LRRK2_PD_002"
+      ],
+      "reason": "Directly supported by excerpt plus recorded abstract context."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "evidence_ids": [
+        "LRRK2_PD_003"
+      ],
+      "reason": "Directly supported by excerpt plus recorded abstract context."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "evidence_ids": [
+        "LRRK2_PD_004"
+      ],
+      "reason": "Directly supported by excerpt plus recorded abstract context."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "evidence_ids": [
+        "LRRK2_PD_005"
+      ],
+      "reason": "Directly supported by excerpt plus recorded abstract context."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "bounded_interpretation",
+      "evidence_ids": [
+        "LRRK2_PD_003"
+      ],
+      "reason": "Labeled interpretation restricted to what the cited finding establishes."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "bounded_interpretation",
+      "evidence_ids": [
+        "LRRK2_PD_005"
+      ],
+      "reason": "Labeled interpretation restricted to what the cited finding establishes."
+    }
+  ]
+}
