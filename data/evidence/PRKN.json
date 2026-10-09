@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "collection_scope": "Three manually selected original studies; abstract-level review; not comprehensive or a current treatment review",
+  "selection_method": "Selected as landmark studies with PubMed abstracts; not imported Open Targets evidence records",
+  "identifier_sources": {
+    "target": "https://www.ncbi.nlm.nih.gov/gene/5071",
+    "disease_mapping": "https://github.com/EBISPOT/efo/issues/1381",
+    "legacy_efo_id": "EFO_0002508"
+  },
+  "records": [
+    {
+      "evidence_id": "PRKN_PD_001",
+      "gene_symbol": "PRKN",
+      "target_id": "ENSG00000185345",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "Exon deletions in the gene encoding parkin were found in patients with autosomal recessive juvenile parkinsonism from more than one family.",
+      "supporting_passage": "Four other AR-JP patients from three unrelated families have a deletion affecting exon 4 alone.",
+      "passage_context": "The abstract describes positional cloning of a gene in a chromosome 6 microdeletion. Exons 3–7 were deleted in the index patient, and the authors named the protein product Parkin. The current gene symbol is PRKN.",
+      "source_location": "Abstract, sentence beginning Four other AR-JP patients",
+      "source_title": "Mutations in the parkin gene cause autosomal recessive juvenile parkinsonism.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/9560156/",
+      "pmid": "9560156",
+      "doi": "10.1038/33416",
+      "publication_year": 1998,
+      "first_author": "Kitada",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "These deletions were found in families selected for autosomal recessive juvenile parkinsonism, not in typical later-onset Parkinson’s disease.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-09"
+    },
+    {
+      "evidence_id": "PRKN_PD_002",
+      "gene_symbol": "PRKN",
+      "target_id": "ENSG00000185345",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "In this series, parkin mutations were present in 36 of 73 families with early-onset Parkinson’s disease.",
+      "supporting_passage": "Among the families with early-onset Parkinson's disease, 36 (49 percent) had parkin mutations.",
+      "passage_context": "Families were included when at least one member was affected at or before age 45 and the parents were unaffected. The current gene symbol is PRKN. Among isolated patients in the same study, mutations were much more common when onset was at or before age 20 than when onset was after age 30.",
+      "source_location": "Abstract, Results, first sentence",
+      "source_title": "Association between early-onset Parkinson's disease and mutations in the parkin gene.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/10824074/",
+      "pmid": "10824074",
+      "doi": "10.1056/NEJM200005253422103",
+      "publication_year": 2000,
+      "first_author": "Lücking",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "These frequencies come from families and patients selected for early onset. They are not frequencies for Parkinson’s disease in general.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-09"
+    },
+    {
+      "evidence_id": "PRKN_PD_003",
+      "gene_symbol": "PRKN",
+      "target_id": "ENSG00000185345",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "laboratory",
+      "finding": "Parkin functioned as a ubiquitin-protein ligase with UbcH7, and mutant parkin from patients with autosomal recessive juvenile parkinsonism lost that activity.",
+      "supporting_passage": "parkin is involved in protein degradation as a ubiquitin-protein ligase collaborating with the ubiquitin-conjugating enzyme UbcH7, and that mutant parkins from AR-JP patients show loss of the ubiquitin-protein ligase activity.",
+      "passage_context": "A ubiquitin-protein ligase tags proteins for degradation. This is a laboratory finding about the protein the paper calls parkin; the current gene symbol is PRKN. The abstract does not report a treatment result.",
+      "source_location": "Abstract, third sentence",
+      "source_title": "Familial Parkinson disease gene product, parkin, is a ubiquitin-protein ligase.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/10888878/",
+      "pmid": "10888878",
+      "doi": "10.1038/77060",
+      "publication_year": 2000,
+      "first_author": "Shimura",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "Loss of ligase activity in these experiments does not show that restoring the activity slows Parkinson’s disease.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-09"
+    }
+  ]
+}
