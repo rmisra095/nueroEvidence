@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "collection_scope": "Five manually selected original studies; abstract-level review; not comprehensive or a current treatment review",
+  "selection_method": "Selected during project planning; not imported Open Targets evidence records",
+  "identifier_sources": {
+    "target": "https://www.ncbi.nlm.nih.gov/gene/120892",
+    "disease_mapping": "https://github.com/EBISPOT/efo/issues/1381",
+    "legacy_efo_id": "EFO_0002508"
+  },
+  "records": [
+    {
+      "evidence_id": "LRRK2_PD_001",
+      "gene_symbol": "LRRK2",
+      "target_id": "ENSG00000188906",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "Certain LRRK2 mutations segregated with inherited parkinsonism in families.",
+      "supporting_passage": "we have found six disease-segregating mutations",
+      "passage_context": "The abstract describes sequencing in 46 families and identifies the gene as LRRK2.",
+      "source_location": "Abstract, second sentence",
+      "source_title": "Mutations in LRRK2 cause autosomal-dominant parkinsonism with pleomorphic pathology",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15541309/",
+      "pmid": "15541309",
+      "doi": "10.1016/j.neuron.2004.11.005",
+      "publication_year": 2004,
+      "first_author": "Zimprich",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "This finding concerns particular mutations in families, not all variants or all Parkinson’s cases.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "evidence_id": "LRRK2_PD_002",
+      "gene_symbol": "LRRK2",
+      "target_id": "ENSG00000188906",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "G2019S was present in 8 of 482 patients in this study of idiopathic Parkinson’s disease.",
+      "supporting_passage": "We assessed 482 patients with the disorder … The mutation was present in eight (1.6%) patients.",
+      "passage_context": "The preceding abstract sentence identifies the investigated substitution as Gly2019 ser (G2019S) and the condition as idiopathic Parkinson’s disease.",
+      "source_location": "Abstract, fourth and fifth sentences; omission marked with ellipsis",
+      "source_title": "A common LRRK2 mutation in idiopathic Parkinson's disease",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15680457/",
+      "pmid": "15680457",
+      "doi": "10.1016/S0140-6736(05)17830-1",
+      "publication_year": 2005,
+      "first_author": "Gilks",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "The observed frequency is specific to this sample; it is not a universal prevalence estimate.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "evidence_id": "LRRK2_PD_003",
+      "gene_symbol": "LRRK2",
+      "target_id": "ENSG00000188906",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "This study estimated Parkinson’s risk in G2019S carriers at 28% by age 59, 51% by 69, and 74% by 79.",
+      "supporting_passage": "28% at age 59 years, 51% at 69 years, and 74% at 79 years.",
+      "passage_context": "The full sentence identifies the risk as Parkinson’s disease in a person inheriting the LRRK2 Gly2019Ser mutation.",
+      "source_location": "Abstract, Findings, third sentence",
+      "source_title": "Phenotype, genotype, and worldwide genetic penetrance of LRRK2-associated Parkinson's disease: a case-control study",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/18539534/",
+      "pmid": "18539534",
+      "doi": "10.1016/S1474-4422(08)70117-0",
+      "publication_year": 2008,
+      "first_author": "Healy",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "These population estimates are not individual predictions or current universal risk estimates.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "evidence_id": "LRRK2_PD_004",
+      "gene_symbol": "LRRK2",
+      "target_id": "ENSG00000188906",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "laboratory",
+      "finding": "Pathogenic LRRK2 variants increased Rab protein phosphorylation in laboratory experiments.",
+      "supporting_passage": "Pathogenic LRRK2 variants mapping to different functional domains increase phosphorylation of Rabs",
+      "passage_context": "Phosphorylation is a chemical modification of proteins. This finding concerns a laboratory mechanism, not clinical benefit.",
+      "source_location": "Abstract, sentence beginning Pathogenic LRRK2 variants",
+      "source_title": "Phosphoproteomics reveals that Parkinson's disease kinase LRRK2 regulates a subset of Rab GTPases",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26824392/",
+      "pmid": "26824392",
+      "doi": "10.7554/eLife.12813",
+      "publication_year": 2016,
+      "first_author": "Steger",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "A molecular effect alone does not establish that changing it improves disease outcomes.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-06"
+    },
+    {
+      "evidence_id": "LRRK2_PD_005",
+      "gene_symbol": "LRRK2",
+      "target_id": "ENSG00000188906",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "clinical",
+      "finding": "DNL201 inhibited LRRK2 and was well tolerated at doses demonstrating pathway engagement in phase 1 and 1b trials.",
+      "supporting_passage": "DNL201 at single and multiple doses inhibited LRRK2 and was well tolerated at doses demonstrating LRRK2 pathway engagement",
+      "passage_context": "The beginning of this abstract sentence describes phase 1 and phase 1b trials in healthy volunteers and Parkinson’s patients, respectively.",
+      "source_location": "Abstract, sentence beginning In phase 1 and phase 1b",
+      "source_title": "Preclinical and clinical evaluation of the LRRK2 inhibitor DNL201 for Parkinson's disease",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35675433/",
+      "pmid": "35675433",
+      "doi": "10.1126/scitranslmed.abj2658",
+      "publication_year": 2022,
+      "first_author": "Jennings",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "Target inhibition and tolerability do not establish slowing of Parkinson’s progression.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-06"
+    }
+  ]
+}

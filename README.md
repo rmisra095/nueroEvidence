@@ -1,2 +1,9 @@
-# nueroEvidence
-Helping researchers investigate gene–disease connections through cited research summaries and supporting evidence.
+# NeuroEvidence
+
+Cited evidence for a gene’s connection to Parkinson’s disease.
+
+LRRK2 records are in `data/evidence/LRRK2.json`.
+
+```sh
+python3 scripts/validate_data.py
+```
