@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "collection_scope": "Three manually selected original studies; abstract-level review; not comprehensive or a current treatment review",
+  "selection_method": "Selected as landmark studies with PubMed abstracts; not imported Open Targets evidence records",
+  "identifier_sources": {
+    "target": "https://www.ncbi.nlm.nih.gov/gene/2629",
+    "disease_mapping": "https://github.com/EBISPOT/efo/issues/1381",
+    "legacy_efo_id": "EFO_0002508"
+  },
+  "records": [
+    {
+      "evidence_id": "GBA1_PD_001",
+      "gene_symbol": "GBA1",
+      "target_id": "ENSG00000177628",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "In this Ashkenazi Jewish series, 31 of 99 patients with Parkinson’s disease carried one or two mutant GBA alleles.",
+      "supporting_passage": "Thirty-one patients with Parkinson's disease (31.3 percent; 95 percent confidence interval, 22.2 to 40.4 percent) had one or two mutant GBA alleles",
+      "passage_context": "The study screened 99 Ashkenazi patients with idiopathic Parkinson’s disease for six GBA mutations common in that population. The paper uses the symbol GBA for the gene now named GBA1. Carrier rates were lower in the Alzheimer’s and healthy control groups described in the same abstract.",
+      "source_location": "Abstract, Results, first sentence",
+      "source_title": "Mutations in the glucocerebrosidase gene and Parkinson's disease in Ashkenazi Jews.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15525722/",
+      "pmid": "15525722",
+      "doi": "10.1056/NEJMoa033277",
+      "publication_year": 2004,
+      "first_author": "Aharon-Peretz",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "This carrier frequency is for one clinic-based Ashkenazi sample and six mutations. It is not a risk estimate for every population, and carrying a mutation is not described as guaranteeing disease.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-09"
+    },
+    {
+      "evidence_id": "GBA1_PD_002",
+      "gene_symbol": "GBA1",
+      "target_id": "ENSG00000177628",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "Across 16 centers, the odds ratio for any GBA mutation in patients with Parkinson’s disease versus controls was 5.43.",
+      "supporting_passage": "The odds ratio for any GBA mutation in patients versus controls was 5.43 across centers.",
+      "passage_context": "The analysis included 5691 patients and 4898 controls. The paper uses the symbol GBA for the gene now named GBA1. The same results section says patients with a GBA mutation presented earlier than patients without one.",
+      "source_location": "Abstract, Results, sentence beginning The odds ratio",
+      "source_title": "Multicenter analysis of glucocerebrosidase mutations in Parkinson's disease.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19846850/",
+      "pmid": "19846850",
+      "doi": "10.1056/NEJMoa0901281",
+      "publication_year": 2009,
+      "first_author": "Sidransky",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "This odds ratio is a group comparison, not an individual prediction. The abstract also says limited mutation screening can miss mutant alleles.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-09"
+    },
+    {
+      "evidence_id": "GBA1_PD_003",
+      "gene_symbol": "GBA1",
+      "target_id": "ENSG00000177628",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "GBA mutations were more frequent in this British Parkinson’s series (33 of 790 patients) than in matched controls (3 of 257).",
+      "supporting_passage": "The frequency of GBA mutations among the British patients (33/790 = 4.18%) was significantly higher (P = 0.01; odds ratio = 3.7; 95% confidence interval = 1.12-12.14) when compared to the control group (3/257 = 1.17%).",
+      "passage_context": "The paper uses the symbol GBA for the gene now named GBA1. Where brain tissue was available, the abstract reports widespread alpha-synuclein pathology in 17 carriers.",
+      "source_location": "Abstract, sentence beginning The frequency of GBA mutations",
+      "source_title": "Glucocerebrosidase mutations in clinical and pathologically proven Parkinson's disease.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/19286695/",
+      "pmid": "19286695",
+      "doi": "10.1093/brain/awp044",
+      "publication_year": 2009,
+      "first_author": "Neumann",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "The frequency applies to this British series. The pathology statement covers the 17 carriers with brain material, not every carrier.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-09"
+    }
+  ]
+}

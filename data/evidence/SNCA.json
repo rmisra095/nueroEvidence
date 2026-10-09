@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "collection_scope": "Three manually selected original studies; abstract-level review; not comprehensive or a current treatment review",
+  "selection_method": "Selected as landmark studies with PubMed abstracts; not imported Open Targets evidence records",
+  "identifier_sources": {
+    "target": "https://www.ncbi.nlm.nih.gov/gene/6622",
+    "disease_mapping": "https://github.com/EBISPOT/efo/issues/1381",
+    "legacy_efo_id": "EFO_0002508"
+  },
+  "records": [
+    {
+      "evidence_id": "SNCA_PD_001",
+      "gene_symbol": "SNCA",
+      "target_id": "ENSG00000145335",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "A mutation in the alpha-synuclein gene was identified in an Italian kindred and in three Greek families with autosomal dominant Parkinson’s disease.",
+      "supporting_passage": "in the Italian kindred and in three unrelated families of Greek origin with autosomal dominant inheritance for the PD phenotype.",
+      "passage_context": "The same abstract sentence identifies the change as a mutation in the alpha-synuclein gene. The abstract does not name the amino-acid substitution.",
+      "source_location": "Abstract, third sentence",
+      "source_title": "Mutation in the alpha-synuclein gene identified in families with Parkinson's disease.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/9197268/",
+      "pmid": "9197268",
+      "doi": "10.1126/science.276.5321.2045",
+      "publication_year": 1997,
+      "first_author": "Polymeropoulos",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "This finding concerns a mutation in particular families, not all variants or all Parkinson’s cases.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-09"
+    },
+    {
+      "evidence_id": "SNCA_PD_002",
+      "gene_symbol": "SNCA",
+      "target_id": "ENSG00000145335",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "This study identified an SNCA duplication in one kindred, and described its clinical phenotype as closely resembling idiopathic Parkinson’s disease.",
+      "supporting_passage": "One kindred was identified with SNCA duplication",
+      "passage_context": "The kindred was found in a screen of nine families in which parkinsonism segregates as an autosomal dominant trait. The next sentence says that, by contrast with SNCA triplication families, the duplication phenotype closely resembles idiopathic Parkinson’s disease.",
+      "source_location": "Abstract, third sentence",
+      "source_title": "Alpha-synuclein locus duplication as a cause of familial Parkinson's disease.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15451224/",
+      "pmid": "15451224",
+      "doi": "10.1016/S0140-6736(04)17103-1",
+      "publication_year": 2004,
+      "first_author": "Chartier-Harlin",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "One kindred does not establish how often SNCA duplication occurs.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-09"
+    },
+    {
+      "evidence_id": "SNCA_PD_003",
+      "gene_symbol": "SNCA",
+      "target_id": "ENSG00000145335",
+      "disease_name": "Parkinson’s disease",
+      "disease_id": "MONDO_0005180",
+      "evidence_type": "human_genetics",
+      "finding": "An E46K alpha-synuclein mutation was present in all affected members of this Spanish family and in three young asymptomatic relatives.",
+      "supporting_passage": "The E46K mutation was present in all affected family members and in three young asymptomatic subjects, but it was absent in healthy and pathological controls.",
+      "passage_context": "The preceding sentence identifies E46K as a novel mutation found by sequencing the alpha-synuclein gene. The family had autosomal dominant parkinsonism, dementia, and visual hallucinations.",
+      "source_location": "Abstract, fifth sentence",
+      "source_title": "The new mutation, E46K, of alpha-synuclein causes Parkinson and Lewy body dementia.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/14755719/",
+      "pmid": "14755719",
+      "doi": "10.1002/ana.10795",
+      "publication_year": 2004,
+      "first_author": "Zarranz",
+      "text_scope": "abstract",
+      "limitations": [
+        {
+          "text": "The mutation was also present in young relatives without symptoms, so it did not correspond one-to-one with disease in this family.",
+          "kind": "reviewer_interpretation"
+        }
+      ],
+      "review_status": "verified",
+      "review_method": "Assistant comparison against original-study abstract; no independent researcher review",
+      "reviewed_on": "2026-10-09"
+    }
+  ]
+}
